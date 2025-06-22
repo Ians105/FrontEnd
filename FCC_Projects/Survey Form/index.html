@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Cat Survey</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1 id="title">Cat Survey Form</h1>
+        <p id="description">
+            A survey intended to see the most popular cat breeds
+        </p>
+        <form id="survey-form">
+            <label id="name-label" for="name">
+                Name:
+                <input type="text" id="name" placeholder="Le Katze" required />
+            </label>
+            <label id="email-label" for="email">
+                Email:
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="katze@catmail.com"
+                    required
+                />
+            </label>
+            <label id="number-label" for="number">
+                Number of cats you have:
+                <input
+                    type="number"
+                    id="number"
+                    min="0"
+                    max="20"
+                    placeholder="1"
+                />
+            </label>
+            <label>
+                What is your favorite breed of cat?
+                <select id="dropdown">
+                    <option>Pick a breed</option>
+                    <option>Persian</option>
+                    <option>Maine Coon</option>
+                    <option>Siamese</option>
+                    <option>Ragdoll</option>
+                    <option>British Shorthair</option>
+                </select>
+            </label>
+            <p>Do you like dogs?</p>
+            <label>
+                <input type="radio" name="yes-no" value="yes" />
+                Yes
+            </label>
+            <label>
+                <input type="radio" name="yes-no" value="no" checked />
+                No
+            </label>
+            <p>Any other animals that you like?</p>
+            <label><input type="checkbox" value="owl" /> Owl</label>
+            <label><input type="checkbox" value="crow" /> Crow</label>
+            <label><input type="checkbox" value="raven" /> Raven</label>
+            <label><input type="checkbox" value="bear" /> Bear</label>
+            <label><input type="checkbox" value="capybara" /> Capybara</label>
+            <label>
+                Any comments?
+                <textarea placeholder="Cats are better than dogs"> </textarea>
+            </label>
+            <input type="submit" id="submit" />
+        </form>
+    </body>
+</html>
