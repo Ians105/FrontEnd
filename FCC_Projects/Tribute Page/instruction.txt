@@ -10,22 +10,21 @@ User Stories:
 [] Your img element should be centered within its parent element
 
 Tests
-1. You should have a main element with an id of main.
-2. Your #img-div, #image, #img-caption, #tribute-info, and #tribute-link should all be descendants of #main.
-3. You should have an element with an id of title.
-4. Your #title should not be empty.
-5. You should have a figure or div element with an id of img-div.
-6. You should have an img element with an id of image.
-7. Your #image should be a descendant of #img-div.
-8. You should have a figcaption or div element with an id of img-caption.
-9. Your #img-caption should be a descendant of #img-div.
-10. Your #img-caption should not be empty.
-11. You should have an element with an id of tribute-info.
-12. Your #tribute-info should not be empty.
-13. You should have an a element with an id of tribute-link.
-14. Your #tribute-link should have an href attribute and value.
-15. Your #tribute-link should have a target attribute set to _blank.
-16. Your img element should have a display of block.
-17. Your #image should have a max-width of 100%.
-18. Your #image should have a height of auto.
-19. Your #image should be centered within its parent.
+[x] A main element with an id of main.
+[x] #img-div, #image, #img-caption, #tribute-info, and #tribute-link should all be descendants of #main.
+[] An element with an id of title that is not be empty.
+[x] A figure or div element with an id of img-div.
+[x] An img element with an id of image.
+    [x] should be a descendant of #img-div.
+[x] A figcaption or div element with an id of img-caption.
+    [x] should be a descendant of #img-div.
+    [x] should not be empty.
+[x] An element with an id of tribute-info.
+    [x] should not be empty.
+[x] An element with an id of tribute-link.
+    [x] should have an href attribute and value.
+    [x] should have a target attribute set to _blank.
+[x] img element should have a display of block.
+    [x] should have a max-width of 100%.
+    [x] should have a height of auto.
+    [x] should be centered within its parent.
